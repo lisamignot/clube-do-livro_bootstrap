@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube do Livro</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Clube do Livro</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav id="menu"class="collapse navbar-collapse justify-content-end">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#indicacoes">Indicações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#generos">Gêneros Literários</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#leiturinha">Leiturinha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cadastrar">Cadastro</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div id="carousel-principal" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="imagens/carousel/1.jpeg" alt="livros empilhados">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="imagens/carousel/2.png" alt="escrita book club em vermelho num fundo rosa">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="imagens/carousel/3.jpg" alt="estante cheia de livros iluminada pela luz do sol">
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#carousel-principal" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <h2>Benefícios da Leitura</h2>
+        <p>A leitura oferece inúmeros benefícios, como a expansão do conhecimento, o estímulo da imaginação, a melhoria da compreensão do mundo e o desenvolvimento de habilidades cognitivas. Além de proporcionar relaxamento e redução do estresse, a leitura enriquece nossa empatia e nos conecta com diferentes culturas e perspectivas, contribuindo para nosso crescimento pessoal e intelectual.</p>
+    </main>
+    
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section class="container" id="indicacoes">
+            <h2>Livros Indicados</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-bg-dark">
+                        <img src="imagens/cards/primeiro.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda laborum quaerat enim tenetur, vel expedita facere sequi explicabo fugiat ducimus temporibus quae, atque suscipit provident nobis sapiente modi magni quos!</p>
+                            <a href="#" class="btn btn-secondary">Saiba mais ...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-bg-dark">
+                        <img src="imagens/cards/segundo.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda laborum quaerat enim tenetur, vel expedita facere sequi explicabo fugiat ducimus temporibus quae, atque suscipit provident nobis sapiente modi magni quos!</p>
+                            <a href="#" class="btn btn-secondary">Saiba mais ...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-bg-dark">
+                        <img src="imagens/cards/terceiro.jpg">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda laborum quaerat enim tenetur, vel expedita facere sequi explicabo fugiat ducimus temporibus quae, atque suscipit provident nobis sapiente modi magni quos!</p>
+                            <a href="#" class="btn btn-secondary">Saiba mais ...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="generos">
+            <h2>Gêneros Literários</h2>
+            <nav class="nav nav-tabs">
+                <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#romance">Romance</button>
+                <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#ficcao">Ficção</button>
+                <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#humanidades">Humanidades e Ciências Sociais</button>
+                <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#poesia">Poesia</button>
+                <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#contos">Contos e Crônicas</button>
+                <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#espiritualidade">Religião e Espiritualidade</button>
+            </nav>
+            <div class="tab-content">
+                <div class="tab-pane active" id="romance">
+                    <p>Uma forma extensa de ficção narrativa que se caracteriza por uma trama complexa e desenvolvimento detalhado de personagens, abordando temas como amor, aventura, intrigas e questões sociais.</p>
+                </div>
+                <div class="tab-pane" id="ficcao">
+                    <p>Apresentam eventos e personagens imaginários ou fictícios, permitindo aos autores explorar temas diversos, universos alternativos e experiências humanas através da imaginação.</p>
+                </div>
+                <div class="tab-pane" id="humanidades">
+                    <p>Englobam uma vasta gama de estudos acadêmicos e literários a fim de explorar a condição humana, sociedades, culturas e sistemas de pensamento. Através de métodos analíticos e interpretativos buscam examinar e compreender diversos aspectos da experiência humana.</p>
+                </div>
+                <div class="tab-pane" id="poesia">
+                    <p>A poesia utiliza linguagem estética e ritmo para expressar sentimentos, ideias e experiências de forma concentrada e evocativa, criando reflexões profundas sobre a condição humana e o mundo ao seu redor.</p>
+                </div>
+                <div class="tab-pane" id="contos">
+                    <p>São formas literárias breves que exploram eventos, personagens e reflexões de maneira concisa e muitas vezes focalizada. Tanto os contos quanto as crônicas capturam momentos significativos da vida humana, oferecendo insights e emoções de forma eficaz e impactante.</p>
+                </div>
+                <div class="tab-pane" id="espiritualidade">
+                    <p>Exploram crenças, práticas religiosas, filosofias espirituais e experiências transcendentais. Esses escritos frequentemente refletem a busca por significado, conexão com o divino e reflexões sobre moralidade e existência humana.</p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="leiturinha">
+            <h2>Leiturinha</h2>
+            <p>A leitura desde a infância é essencial para o desenvolvimento integral das crianças, fortalecendo habilidades linguísticas, como vocabulário e compreensão textual, além de estimular a imaginação e a criatividade através de histórias cativantes. Incentive esse hábito da melhor forma: através do exemplo!</p>
+            <div class="row">
+                <div class="col-4">
+                    <img src="imagens/1.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="imagens/2.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="imagens/3.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="container" id="cadastrar">
+            <div id="btn-cadastro">
+                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cadastro">
+                    Faça seu cadastro!
+                </button>
+            </div>
+            <div class="modal" id="cadastro" data-bs-backdrop="static">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <form>
+                                <label class="form-label pt-4" for="nome">Nome completo:</label>
+                                <input class="form-control" type="text" id="nome" required>
+                                <label class="form-label" for="email">Email:</label>
+                                <input class="form-control" type="email" id="email" required>
+                                <label class="form-label" for="telefone" >Telefone:</label>
+                                <input class="form-control" type="number" id="telefone" required>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cadastrar</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Sair</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>
+                &copy; 2024 Lisa Mignot - Curso Desenvolvedor Full Stack Python Ebac
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

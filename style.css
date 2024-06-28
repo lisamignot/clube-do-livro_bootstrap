@@ -1,0 +1,79 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+    
+    .container {
+        max-width: 1280px;
+    }
+
+    header {
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 3em;
+        font-weight: bolder;
+    }
+
+    .nav-link {
+        color: #247648;
+        font-weight: 500;
+    }
+
+    h2 {
+        padding: 40px 0;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    p {
+        padding: 0 30px;
+        text-align: justify;
+        text-indent: 30px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        height: 430px;
+    }
+    
+    .tab-content p {
+        padding-top: 30px;
+    }
+
+    .nav button {
+        font-weight: bold;
+        color: black;
+    }
+
+    .nav button:hover {
+        color: #247648;
+    }
+
+    
+    #leiturinha img {
+        border-radius: 50%; 
+        width: 100%;
+    }
+
+    #btn-cadastro {
+        text-align: center;
+        padding: 100px 0;
+    }  
+    
+    #btn-cadastro button {
+        width: 300px;
+        padding: 30px;
+    }
+
+    footer p {
+        text-align: right;
+        font-weight: lighter;
+    }
